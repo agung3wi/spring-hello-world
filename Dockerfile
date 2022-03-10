@@ -11,7 +11,6 @@ RUN mvn package
 #pull base image
 
 FROM openjdk
-
 #expose port 8080
 EXPOSE 8080
 
