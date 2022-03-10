@@ -10,7 +10,7 @@ RUN mvn package
 
 #pull base image
 
-FROM fabric8/java-alpine-openjdk8-jre
+FROM fabric8/java-alpine-openjdk11-jre
 #expose port 8080
 EXPOSE 8080
 
